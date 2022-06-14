@@ -67,6 +67,11 @@ folds: [
     end: {index: -1}
   }
   {
+    type: 'module'
+    start: {index: 1}
+    end: {index: -1}
+  }
+  {
     type: ['method', 'singleton_method']
     start: {type: 'method_parameters'}
     end: {index: -1}
